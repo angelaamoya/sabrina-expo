@@ -1,7 +1,7 @@
 :root {
     --bg-color: #BFDDFF;
     --bg-color-sec: #D9D9D9;
-    --amarillo: #E0E0A6;
+    --amarillo: #ffff9e;
     --rosa:#F29EB2;
     --azul-oscuro: #015DCA;
     --negro: #020202;
@@ -21,7 +21,6 @@ img{
     vertical-align: middle;
 }
 
-/* VIDEO */
 .hero {
     background-image: url(../media/video/home.jpg);
     background-size:cover;
@@ -96,6 +95,10 @@ header a {
     font-family: var(--menu);
     color: var(--negro);
     text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
 }
 
 /* Menu desktop */
